@@ -14,7 +14,7 @@ Néanmoins, nous invitons la communauté à :
 
 **Comment contribuer ?**
 
-- Clonez le dépôt : `git clone https://github.com/PLATON-y/pctamalou-complex-cipher.git`
+- Clonez le dépôt : `git clone [https://github.com/PLATON-y/pctamalou-complex-cipher.git](https://github.com/PLATON-y/pctamalou-complex-cipher.git)`
 - Compilez et testez (voir `README.md`).
 - Ouvrez une issue sur GitHub pour rapporter un problème ou une idée.
 - Soumettez une *pull request* avec vos corrections ou améliorations.
@@ -37,7 +37,7 @@ Nevertheless, we invite the community to:
 
 **How to contribute?**
 
-- Clone the repository: `git clone https://github.com/PLATON-y/pctamalou-complex-cipher.git`
+- Clone the repository: `[git clone https://github.com/PLATON-y/pctamalou-complex-cipher.git](https://github.com/PLATON-y/pctamalou-complex-cipher.git)`
 - Build and test (see `README.md`).
 - Open an issue on GitHub to report a problem or an idea.
 - Submit a pull request with your fixes or improvements.
