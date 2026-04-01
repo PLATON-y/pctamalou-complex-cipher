@@ -1,7 +1,6 @@
 /*
- * PCTamalou Complex Cipher v0.4 – Noyau C optimisé (corrigé)
+ * PCTamalou Complex Cipher v0.4 – Noyau C optimisé 
  * ===========================================================
- * Ajout de fp2_sqr, correction des initialisations.
  */
 
 #include <stdint.h>
@@ -317,7 +316,7 @@ static const fp_t FP_P = {{0xFFFFFFFFFFFFFFEDULL, 0xFFFFFFFFFFFFFFFFULL,
     }
 
     /* ====================================================================
-     * Stream Feistel + MAC + AEAD + KDF (complet)
+     * Stream Feistel + MAC + AEAD + KDF
      * ==================================================================== */
     typedef struct {
         fp2_t L, R;
