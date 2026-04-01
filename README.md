@@ -109,7 +109,7 @@ make          # build shared library and test program
 make test     # run unit tests
 make bench    # run performance benchmarks
 make clean    # remove generated files
-```
+
 
 ### Tests & Performance
 
