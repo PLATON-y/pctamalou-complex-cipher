@@ -113,7 +113,7 @@ make clean    # remove generated files
 
 ### Tests & Performance
 
-
+```
 $ make test
 Hash déterministe                  ... ✓
 Hash sensible à la casse           ... ✓
