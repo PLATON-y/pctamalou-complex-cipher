@@ -1,13 +1,13 @@
 # pctamalou-complex-cipher
 
-```
+
 # PCTamalou Complex Cipher – Implémentation C / C Implementation
 
 ## 🇫🇷 Français
 
 ### Vue d’ensemble
 
-**PCTamalou Complex Cipher** est une bibliothèque cryptographique expérimentale écrite en C pur. Elle implémente :
+PCTamalou Complex Cipher est une bibliothèque cryptographique expérimentale écrite en C pur. Elle implémente :
 
 - **Hachage** (construction sponge) avec une permutation basée sur une intégrale de contour discrète utilisant des racines de l’unité et des valeurs de la fonction zêta de Riemann.
 - **Fonction de dérivation de clé** (KDF) avec itérations configurables et un paramètre de « durée » (pour la *forward secrecy*).
@@ -25,16 +25,16 @@ Ce code est **éducatif et expérimental**. Il n’a pas été audité et ne doi
 
 ### Compilation
 
-```
+
 make          # construit la bibliothèque partagée et le programme de test
 make test     # exécute les tests unitaires
 make bench    # exécute les benchmarks de performance
 make clean    # supprime les fichiers générés
-```
+
 
 ### Tests et performances
 
-```
+
 $ make test
 Hash déterministe                  ... ✓
 Hash sensible à la casse           ... ✓
@@ -48,20 +48,20 @@ Message vide                        ... ✓
 MAC déterministe                    ... ✓
 MAC sensible aux données            ... ✓
 11 tests passed, 0 failed
-```
 
-```
+
+
 $ make bench
 Hash 1 KB     : 0.15 MB/s
 Hash 64 KB    : 0.17 MB/s
 Encrypt 1 KB  : 0.34 MB/s
 Encrypt 64 KB : 11.29 MB/s
 KDF (10k it)  : 16.39 s
-```
+
 
 ### Utilisation
 
-```
+
 #include "pctamalou_core.c" // ou lien avec la bibliothèque
 
 int main() {
@@ -74,13 +74,13 @@ int main() {
     if (plen >= 0) printf("OK: %.*s\n", (int)plen, decrypted);
     return 0;
 }
-```
+
 
 ### Licence
 
 GPLv3 (voir fichier `LICENSE`).
 
----
+
 
 ## 🇬🇧 English
 
@@ -104,7 +104,7 @@ This code is **educational and experimental**. It has not been audited and must 
 
 ### Building
 
-```
+
 make          # build shared library and test program
 make test     # run unit tests
 make bench    # run performance benchmarks
@@ -113,7 +113,7 @@ make clean    # remove generated files
 
 ### Tests & Performance
 
-```
+
 $ make test
 Hash déterministe                  ... ✓
 Hash sensible à la casse           ... ✓
@@ -127,20 +127,20 @@ Message vide                        ... ✓
 MAC déterministe                    ... ✓
 MAC sensible aux données            ... ✓
 11 tests passed, 0 failed
-```
 
-```
+
+
 $ make bench
 Hash 1 KB     : 0.15 MB/s
 Hash 64 KB    : 0.17 MB/s
 Encrypt 1 KB  : 0.34 MB/s
 Encrypt 64 KB : 11.29 MB/s
 KDF (10k it)  : 16.39 s
-```
+
 
 ### Usage
 
-```
+
 #include "pctamalou_core.c" // or link with the library
 
 int main() {
@@ -153,10 +153,9 @@ int main() {
     if (plen >= 0) printf("OK: %.*s\n", (int)plen, decrypted);
     return 0;
 }
-```
+
 
 ### License
 
 GPLv3 (see `LICENSE` file).
-```
 
